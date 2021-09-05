@@ -5,6 +5,6 @@ Repository used in the Coursera course _"HTML, CSS, and Javascript for Web Devel
 
 The resulting webpages from the code can be found at the following links.  
 
-**Assignment Links Week 2:** https://  
+**Assignment Links Week 2:** https://thefoxian.github.io/Fullstack-Development/Module2-Assignment/index.html 
 
 Thank you, **Harshit Joshi**
