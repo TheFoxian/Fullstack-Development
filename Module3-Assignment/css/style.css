@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/** Header **/
+#header-nav {
+  border-radius: 0;
+	border: 0;
+}
+
+
+.navbar-brand {
+	padding-top: 25px;
+	height: 60px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #111;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+/* Nav dropdown*/
+#nav-list {
+ margin: 0px;
+}
+#nav-list a {
+  color: #EDEDED;
+  text-shadow: 1px 1px 1px #222;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+/* Color the collapsing menu buttons differently*/
+	.collapsing, .in {
+		background-color: #D9D9D9;
+		padding: 0px;
+		width: 100%;
+	}
+
+	.collapsing, .in li:nth-child(even) {
+		background-color: #E1E1E1;
+	}
+/** End Header **/
+
+
+
+/** Index Page **/
+#page-header {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 3.0em;
+	font-weight: bold;
+}
+
+.container {
+ width: 100%;
+}
+
+.content {
+	background-color: #EEEEEE;
+  border: 3px solid black;
+  font-family: Helvetica;
+  color: black;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-right: 5px;    
+  margin-left: 5px;    
+  margin-bottom: 5px;    
+  position: relative; 
+}
+
+.content h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.0 em;
+}
+/** End Index Page **/
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin: 0%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
+/********** Computer devices  **********/
+/* Note: We don't actually need to use these since we are using bootstrap classes*/
+@media (min-width: 992px) {
+
+}
+
+/********** Tablet devices  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Mobile devices  **********/
+@media (max-width: 767px) {
+
+}
