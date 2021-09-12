@@ -30,8 +30,8 @@
  margin: 0px;
 }
 #nav-list a {
-  color: #EDEDED;
-  text-shadow: 1px 1px 1px #222;
+  color: #fff;
+  border: 2px solid black;
   font-size: 1.25em;
   font-weight: bold;
 }
