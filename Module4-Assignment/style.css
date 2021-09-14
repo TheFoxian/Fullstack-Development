@@ -1,0 +1,21 @@
+#content {
+    margin-left: 25px;
+}
+
+#content div {
+    width: 50%;
+    padding: .1em;
+    font-size: 1em;
+}
+
+.goodbye {
+    color: red;
+    background: #EEE;
+    
+    /* text-shadow: 1px 1px 1px #DDD; */
+}
+
+.hello {
+    color: green;
+    /* text-shadow: 1px 1px 1px #DDD; */
+}
